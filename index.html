@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/overlay.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar">
+            <a href="#home-page">Home</a>
+            <a href="#tela-exp">Experiência</a>
+            <a href="#tela-projetos">Projetos</a>
+            <a href="#tela-habilidades">Habilidades</a>
+            <a href="#tela-perfil">Perfil</a>
+    </nav>
+    <!-- FIM NAVBAR -->
+    <!-- INICIO PAG INICIAL -->
+    <header id="home-page">
+            <div id="black-bg"></div>
+            <div id="bg-home"></div>
+            <div id="content-home">
+                <h1 class="kanit-title">Élder Ramos</h1>
+                <h2 id="sub-kanit">Desenvolvedor Júnior</h2>
+                <div id="p-kanit">
+                    Estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedor Full-Stack apaixonado em aprender.
+                </div>
+            </div>
+    </header>
+    <!-- FIM PAG INICIAL -->
+    <!-- INICIO TELA EXPERIENCIA -->
+    <main id="tela-exp">
+        <p class="title-tela">Experiência</p>
+        <section id="cards-flex">
+            <!-- CARD FACULDADE -->
+            <div class="card">
+                <!-- Card img -->
+                <figure class="card-picture">
+                    <img src="assets/img/universidade.png">
+                </figure>
+                <!-- Card content -->
+                <div>
+                    <p class="card-title">Faculdade</p>
+                    <hr>
+                    <p class="card-subtitle">Como um Júnior, estudante de <b>Análise e Desenvolvimento de Sistemas</b> na FICR com foco em desenvolvimento web e de aplicativos, estou ansioso para aplicar minhas habilidades e conhecimentos em um <b>estágio profissional</b>. Minha paixão por programação e dedicação ao trabalho me tornam <b>valioso para qualquer equipe.</b></p>
+                </div>                
+            </div>
+            <!-- CARD PROJETOS -->
+            <div class="card">
+                <!-- Card img -->
+                <figure class="card-picture">
+                    <img src="assets/img/estudos.png">
+                </figure>
+                <!-- Card content -->
+                <div>
+                    <p class="card-title">Tecnologias</p>
+                    <hr>
+                    <p class="card-subtitle">Meu conhecimento em <b>HTML, CSS e JavaScript</b> me permite fazer sites funcionais no <b>front-end</b>, enquanto meu conhecimento em <b>Node.js, SQL e PHP</b> me permitem fazer funcionalidades <b>back-end</b>. Eu construí diversos sites, inclusive projetos pessoais e desafios.</p>
+                </div>
+            </div>
+            <!-- CARD ESTUDOS -->
+            <div class="card">
+                <!-- Card image -->
+                <figure class="card-picture"><img src="assets/img/praticas.png"></figure>
+                <!-- Card content -->
+                <div>
+                    <p class="card-title">Estudos</p>
+                    <hr>
+                    <p class="card-subtitle">Nos últimos meses tenho estudado e me aprofundado (por cursos e sozinho) <b>PHP, React.js, Node.js, e frameworks CSS</b>. Sou completamente dedicado aos estudos sobre desenvolvimento.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FIM TELA EXPERIENCIA -->
+    <!-- INICIO TELA PROJETOS -->
+    <section id="tela-projetos">
+        <p class="title-tela">Projetos</p>
+        <p class="subtitle-projetos">Clique para ir para o site/github!</p>
+        <div>
+            <div class="flex-projeto">
+                <div>
+                    <!-- SITE API CLIMA -->
+                    <a href="./">
+                        <div class="container">
+                            <img src="assets/img/projetos/api-clima.png" class="image">
+                            <div class="overlay overlayBottom" >
+                                <div class="text">Clima</div>
+                                <div class="subtitle" align="center">Buscador de clima em tempo real.</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                    <div class="container">
+                        <!-- APP DELUXE IMPORTS -->
+                        <img src="assets/img/projetos/deluxe-imports.jpg" alt="Avatar" class="image">
+                        <div class="overlay overlayBottom">
+                            <div class="text" align="center">Acompanhador de encomendas</div>
+                            <div class="subtitle" align="center">O programa envia mensagens no WhatsApp com atualizações de sua encomenda.</div>
+                        </div>
+                    </div>
+                </a>
+                </div>    
+            </div>
+            <div class="flex-projeto">
+                <!-- SITE CONSELHOS -->
+                <a href="https://elder-ramos-advice-generator.netlify.app" target="_blank">
+                <div class="container">
+                    <img src="./assets/img/projetos/device-generator.png" alt="Avatar" class="image">
+                    <div class="overlay  overlayBottom">
+                        <div class="text">Conselho aleatório</div>
+                        <div class="subtitle" align="center">O site irá te dar conselhos aleatórios.</div>
+                    </div>
+                </a>
+                </div>
+                <a href="">
+                <div class="container">
+                    <!-- SITE CARTAS -->
+                    <img src="./assets/img/projetos/site-cartas.png" alt="Avatar" class="image">
+                    <div class="overlay overlayBottom">
+                        <div class="text">Cartas</div>
+                        <div class="subtitle">Escolha cartas</div>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+    <!-- FIM TELA PROJETOS -->
+    <!-- INICIO TELA HABILIDADES -->
+    <section id="tela-habilidades">
+        <!-- DIV GATO (GIF) -->
+        <div id="div-cat">
+            <figure>
+                <img id="cat-gif" src="assets/img/gif/cat.gif">
+            </figure>
+        </div>
+        <div id="habilidades-bg">
+            <div>
+                <h1 class="title-tela" style="margin-left: 0">Habilidades</h1>
+                <p class="subtitle-projetos">Essas são as linguagens que eu estou mais habituado, mas estou disposto a explorar todas.</p>
+            </div>
+            <div id="descricao-ling"></div>
+            <div id="container-img-habilidades">
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/css-logo.svg">
+                    <p class="subtitle-tech">HTML</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/html-logo.svg">
+                    <p class="subtitle-tech">CSS</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/js-logo.svg">
+                    <p class="subtitle-tech">JavaScript</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/mysql-logo.svg">
+                    <p class="subtitle-tech">MySQL</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/node.js-logo.svg">
+                    <p class="subtitle-tech">Node.js</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/php-logo.svg">
+                    <p class="subtitle-tech">PHP</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/python-logo.svg">
+                    <p class="subtitle-tech">Python</p>
+                </div>
+                <div>
+                    <img class="img-habilidades" src="assets/img/stacks/react.js-logo.svg">
+                    <p class="subtitle-tech">React.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM TELA HABILIDADES -->
+    <!-- INICIO TELA PERFIL -->
+    <section id="tela-perfil">
+        <h1 class="title-tela">Perfil</h1>
+        <div id="perfil-flex">
+            <div id="perfil">
+                <div id="perfil-contacts">
+                    <div>
+                        <p class="font-perfil">Nome</p>
+                        <p class="info-perfil">Élder Ramos</p>    
+                    </div>
+                    <div>
+                        <p class="font-perfil">Email</p>
+                        <p class="info-perfil"><a href="mailto:elderrramos@gmail.com">elderrramos@gmail.com</a></p>    
+                    </div>
+                    <div>
+                        <p class="font-perfil">Currículo</p>
+                        <p class="info-perfil"><a href="https://drive.google.com" target="_blank">Clique aqui!</a></p>    
+                    </div>
+                    <div>
+                        <p class="font-perfil">LinkedIn</p>
+                        <p class="info-perfil"><a href="https://www.linkedin.com/in/elder-ramos" target="_blank">linkedin.com/in/elder-ramos</a></p>    
+                    </div>
+                    <div>
+                        <p class="font-perfil">GitHub</p>
+                        <p class="info-perfil"><a href="https://github.com/elder-ramos" target="_blank">github.com/elder-ramos</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- FORMULARIO CONTATO -->
+            <div id="form">
+                <form action="https://formsubmit.co/f2dc975ede1000f8f23e8facc5ba22b0" onsubmit="alert('Obrigado!')" method="POST">
+                    <h1 id="form-title">Me contate!</h1>
+                    <input class="feedback-input" type="hidden" name="_next" value="UPDATE-GITHUBPAGES">
+                    <input class="feedback-input" type="hidden" name="_captcha" value="false">
+                    <input class="feedback-input" type="email" name="email" placeholder="Seu email" required>
+                    <input class="feedback-input" type="text" name="_subject" placeholder="Assunto" required>
+                    <textarea class="feedback-input" name="message" placeholder="Sua mensagem aqui!" required></textarea>
+                    <button type="submit">Send</button>
+               </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

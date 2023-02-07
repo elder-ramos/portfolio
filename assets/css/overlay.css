@@ -1,0 +1,55 @@
+/* INICIO OVERLAY PROJETO */
+.container {
+    position: relative;
+    width: 40vw;
+    height: 30vh;
+    display: inline-block;
+}
+
+.image {
+    width: 40vw;
+    height: 30vh;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.subtitle {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #008cba;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+
+.overlayBottom{
+    width: 100%;
+    height: 0;
+    bottom:0;
+    left:0;
+    background: rgb(2,0,6);
+    background: linear-gradient(180deg, rgba(2, 0, 6, 0.72) 0%, rgba(50,32,110,1) 100%);
+}
+.container:hover .overlayBottom {
+    height: 100%;
+}
+/* FIM OVERLAY PROJETOS */
